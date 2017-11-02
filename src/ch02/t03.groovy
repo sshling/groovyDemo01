@@ -38,9 +38,20 @@ greeting.length()// array and java.lang.String
 //println(greeting.count('o'))//2 发生2词
 greeting.contains("ld") //true
 
+greeting.eachMatch("."){
+    //ch->println ch
+}
 
+def msg="hi"
+def result=msg.leftShift("tom")
+//println(msg)//hi
+//println(result)//hitom
 
-
+//println(msg<<'tom2')//hitom2
+result=msg.replaceAll('[a-z]'){
+    ch->ch.toUpperCase()
+}
+println(result)//HI
 
 
 
