@@ -7,4 +7,7 @@ package ch02
 println(123)
 println(0.25)
 
+def i=5
+println(i++)//5 ,i=6
+println(++i)//7 ,i=7
 
