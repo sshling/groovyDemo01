@@ -29,7 +29,31 @@ def h3(num){
 //println(h3(3)) //6
 
 //6.5 parameter passing ,pass by value
+//String/Integer 之列是不变对象
+
+//6.6 scope  方法内、方法外 def 定义变量
+
+/**
+ * Groovy  variables defined outside a method using def are
+ * effectively local to the generated run method
+ * and cannot be referenced by any of our Groovy methods
+ */
+def var="xxx"
+def printName(name){
+    println("n1=$name")
+  //  name=var //error 不可以访问到变量var
+    println("n2=$name")
+}
+//printName("tom")
 
 
-
+//6.7 collections as method parameters and return values
+def sort(list, ascending = true) {
+    list.sort()
+    if(ascending == false)
+        list = list.reverse()
+    return list
+}
+def numbers = [10, 5, 3, 6]
+assert(sort(numbers, false) == [10, 6, 5, 3])
 
