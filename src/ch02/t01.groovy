@@ -1,6 +1,13 @@
 package ch02
 
-// OO ,object-oriented lang, everything in Groovy is an object.
+/**
+ * 环境安装：
+ *   sdkman.io
+ * $ which groovy
+ *
+ *
+ */
+// OO ,object-oriented , everything in Groovy is an object.
 //123, is actually an object instance of the class Integer.
 
 //2.1 number
