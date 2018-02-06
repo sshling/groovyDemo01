@@ -24,7 +24,7 @@ println "merry goovy!"
 
 //对于 Integer
 0.upto(2) {
-    print( $it )
+    print( "$it")
 }
 
 
