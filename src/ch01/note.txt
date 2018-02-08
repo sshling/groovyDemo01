@@ -1,0 +1,43 @@
+?.
+    str?.reverse()  引用不为空才继续向后调用
+
+异常处理：
+    java要求强制处理 受检异常
+    crystal-clear   adj. 透明如水晶的；易懂的；非常清楚的
+
+    catch all,ig ex type
+    Beware: this doesn’t catch Errors or Throwables other than Exceptions.
+    other than： 除了
+
+    catch(Throwable throwable)
+        Error extends Throwable
+
+轻量级的java:
+可选：
+    return
+    ;
+    method/class def public
+    ?.
+    init bean : named parameters
+    no forced to catch ex that we don't care
+    use "this" in static method -- ref the Class obj
+
+
+be considered JavaBeans if they followed certain conventions to expose their properties.
+    - to be fair, the intent of JavaBean is noble
+
+reduce the clutter(n. 杂乱)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
